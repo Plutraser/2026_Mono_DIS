@@ -102,15 +102,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: monoLogo_0
+      name: monoLogo_Large
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 340
         width: 1024
-        height: 1024
+        height: 684
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -123,11 +123,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: monoLogo_small
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 62
+        width: 601
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e2c88b614a26147bc571021deb029b
+      internalID: 968867185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b8c954d2f25278a4d8e0fc2481fb7889
     internalID: 0
     vertices: []
     indices: 
@@ -137,7 +159,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      monoLogo_0: 5233953206271718163
+      monoLogo_Large: 5233953206271718163
+      monoLogo_small: 968867185
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
