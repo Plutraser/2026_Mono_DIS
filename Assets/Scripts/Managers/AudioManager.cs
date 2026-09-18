@@ -1,6 +1,10 @@
 using System;
 using UnityEngine;
 
+/// <summary>
+/// Manager: Handles audio in the game
+/// </summary>
+
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;

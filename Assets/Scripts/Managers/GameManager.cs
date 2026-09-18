@@ -1,16 +1,10 @@
 using UnityEngine;
 
+/// <summary>
+/// Manager: Handles the gameObjects that travel from scene to scene
+/// </summary>
+
 public class GameManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

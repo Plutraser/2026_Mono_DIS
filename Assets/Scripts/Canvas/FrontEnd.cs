@@ -14,5 +14,6 @@ public class FrontEnd : MonoBehaviour
     {
         Debug.Log("<color=green>OnOptionsClicked</color>");
         AudioManager.PlayClick();
+        CanvasManager.Instance.ShowCanvasOptions();
     }
 }

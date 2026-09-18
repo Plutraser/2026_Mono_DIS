@@ -132,7 +132,7 @@ TextureImporter:
         width: 302
         height: 344
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -154,7 +154,7 @@ TextureImporter:
         width: 302
         height: 344
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -176,7 +176,7 @@ TextureImporter:
         width: 302
         height: 344
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -198,7 +198,7 @@ TextureImporter:
         width: 302
         height: 344
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -207,6 +207,50 @@ TextureImporter:
       bones: []
       spriteID: da4c901418d6aff40beda0c98d78ba41
       internalID: -232628384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monoFE_BG_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2048
+        height: 1536
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 137, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3999aec717ce01047bba23c80baea4a2
+      internalID: 943122709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FE_BG_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 2048
+        height: 1398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad39979b7294a864492b4aab3fec1ac7
+      internalID: 1880199442
       vertices: []
       indices: 
       edges: []
@@ -226,10 +270,12 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       FE_BG: -7220820809268774416
+      FE_BG_1: 1880199442
       FE_LocalNetworkPlay: -232628384
       FE_PlayNow: 1147614605
       FE_TableTop: -1977868207
       FE_TeacherMode: 2016230258
+      monoFE_BG_1: 943122709
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
