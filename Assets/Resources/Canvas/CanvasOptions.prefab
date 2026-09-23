@@ -2741,6 +2741,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef3137a6c5b0ea45ad12ff545e4cb93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Options
+  musicSlider: {fileID: 6233972813322833888}
+  effectsSlider: {fileID: 1196669604336656307}
 --- !u!1 &5564515723247681162
 GameObject:
   m_ObjectHideFlags: 0
@@ -2899,13 +2901,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 7123920731741421747}
   m_HandleRect: {fileID: 8927473431321253358}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.0001
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3961867296290037949}
+        m_TargetAssemblyTypeName: Options, Assembly-CSharp
+        m_MethodName: OnMusicSliderChanged
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5904811160505037975
 GameObject:
   m_ObjectHideFlags: 0
@@ -4354,13 +4368,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 5944203682849390869}
   m_HandleRect: {fileID: 668912803604215291}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.0001
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3961867296290037949}
+        m_TargetAssemblyTypeName: Options, Assembly-CSharp
+        m_MethodName: OnEffectsSliderChanged
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8084822636152618754
 GameObject:
   m_ObjectHideFlags: 0
