@@ -9,6 +9,7 @@ public class FrontEnd : MonoBehaviour
     {
         Debug.Log("<color=green>OnPlayNowClicked</color>");
         AudioManager.PlayClick();
+        CanvasManager.Instance.ShowCanvasSetup();
     }
     public void OnOptionsClicked()
     {

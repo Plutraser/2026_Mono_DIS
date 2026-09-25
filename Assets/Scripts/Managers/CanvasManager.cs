@@ -26,4 +26,10 @@ public class CanvasManager : MonoBehaviour
     {
         Instantiate(Resources.Load<GameObject>("Canvas/" + "CanvasOptions"));
     }
+
+    public void ShowCanvasSetup()
+    {
+        Setup setup = Instantiate(Resources.Load<GameObject>("Canvas/" + "CanvasSetup")).GetComponent<Setup>();
+        setup.InitCanvas();
+    }
 }
