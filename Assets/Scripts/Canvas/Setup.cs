@@ -6,7 +6,7 @@ public class Setup : MonoBehaviour
 
     public void InitCanvas()
     {
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < PlayerManager.maxPlayers; i++)
         {
             wSetup w_Setup = Instantiate(Resources.Load<GameObject>("Widgets/" + "w_Setup"), Grp_PlayerButtons).GetComponent<wSetup>();
             w_Setup.InitWidget();

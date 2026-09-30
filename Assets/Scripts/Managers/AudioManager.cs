@@ -18,9 +18,9 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance;
 
 
-    public AudioMixerGroup[] mixers;
-    public float[] volume = { 1f, 1f };
-    private string[] strMixers = { "MusicVol", "EffectsVol" };
+    [NamedArray(typeof(eMixers))] public AudioMixerGroup[] mixers;
+    [NamedArray(typeof(eMixers))] public float[] volume = { 1f, 1f };
+    [NamedArray(typeof(eMixers))] private string[] strMixers = { "MusicVol", "EffectsVol" };
 
     public AudioSource Effects;
     public AudioClip Click;

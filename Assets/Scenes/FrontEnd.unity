@@ -834,6 +834,7 @@ GameObject:
   - component: {fileID: 1840077132}
   - component: {fileID: 1840077133}
   - component: {fileID: 1840077134}
+  - component: {fileID: 1840077135}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -869,6 +870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b64ff801aea0c34da29c208e651e04a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  so_Ref: {fileID: 11400000, guid: 748b8be4e2db370488b1e6ea43f98fa1, type: 2}
 --- !u!114 &1840077134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -881,6 +883,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81ebf949b19d65f42b4cfc41c2a36acf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanvasManager
+--- !u!114 &1840077135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840077131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc68c7a929977d84687226f79ad121ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerManager
+  players: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
