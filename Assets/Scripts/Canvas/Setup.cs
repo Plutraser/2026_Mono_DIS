@@ -9,7 +9,7 @@ public class Setup : MonoBehaviour
         for (int i = 0; i < PlayerManager.maxPlayers; i++)
         {
             wSetup w_Setup = Instantiate(Resources.Load<GameObject>("Widgets/" + "w_Setup"), Grp_PlayerButtons).GetComponent<wSetup>();
-            w_Setup.InitWidget();
+            w_Setup.InitWidget(PlayerManager.Instance.players[i]);
         }
     }
     public void OnCancelClicked()

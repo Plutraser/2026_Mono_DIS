@@ -9,4 +9,5 @@ public class soRef : ScriptableObject
 {
     [NamedArray(typeof(ePlayerPiece))] public soPlayerPiece[] playerPieces;
     [NamedArray(typeof(ePlayerType))] public soPlayerTypes[] playerTypes;
+    public Color[] playerColors;
 }

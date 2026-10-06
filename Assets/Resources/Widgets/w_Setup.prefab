@@ -698,6 +698,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::wSetup
   buttonAddPlayer: {fileID: 1947113277535086202}
   Grp_PlayerButtons: {fileID: 1237826784122702077}
+  imagePiece: {fileID: 0}
+  textPiece: {fileID: 0}
+  imageType: {fileID: 0}
+  textType: {fileID: 0}
 --- !u!1 &3428454225645124238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,6 +1022,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::wSetup
   buttonAddPlayer: {fileID: 1947113277535086202}
   Grp_PlayerButtons: {fileID: 1237826784122702077}
+  imagePiece: {fileID: 5566763986492664761}
+  textPiece: {fileID: 1060556216271331822}
+  imageType: {fileID: 4604323742495453511}
+  textType: {fileID: 9072188869391076200}
 --- !u!1 &9003547541379960941
 GameObject:
   m_ObjectHideFlags: 0

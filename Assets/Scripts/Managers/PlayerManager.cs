@@ -28,8 +28,10 @@ public class PlayerManager : MonoBehaviour
         {
             players[i] = new GameObject("Player " + (i + 1)).AddComponent<Player>();
             players[i].transform.SetParent(transform);
+            players[i].playerName = "Player " + (i + 1);
             players[i].playerIdx = i;
             players[i].soPlayerPiece = GameManager.Instance.so_Ref.playerPieces[i];
+            players[i].playerColor = GameManager.Instance.so_Ref.playerColors[i];
             players[i].soPlayerType = GameManager.Instance.so_Ref.playerTypes[(int)ePlayerType.none];
 
         }

@@ -25,3 +25,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1f594dd5d9cf2d94996b38afab211a21, type: 2}
   - {fileID: 11400000, guid: 1c2ce86bf03981d42ad7d838ff652d6e, type: 2}
   - {fileID: 11400000, guid: 4ca667003c258cb4587c1de475a795d6, type: 2}
+  playerColors:
+  - {r: 0, g: 0.16470589, b: 1, a: 1}
+  - {r: 1, g: 0.94291973, b: 0.12156863, a: 1}
+  - {r: 1, g: 0.07058824, b: 0.8455281, a: 1}
+  - {r: 1, g: 0, b: 0, a: 1}
